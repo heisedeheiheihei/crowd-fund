@@ -24,7 +24,6 @@ contract CrowdFund {
         uint256 pledged; // 质押数量
         uint32 startAt;
         uint32 endAt;
-
         bool claimed; // 募捐结束标识符
     }
 

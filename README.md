@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# 发币和募捐
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## 功能介绍
+1. 基于ERC20规范发布的鬃狮蜥币BeardedDragonToken，缩写BDT
+2. 基于ERC20规范和BDT发起募捐活动，支持多个不同募捐同时进行
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+## 简易操作
+1. 部署代币合约 BeardedDragonToken.sol
+2. 将代币合约地址作为初始参数写入，部署募捐合约 CrowdFund.sol
+3. 发起质押活动，用户质押代币

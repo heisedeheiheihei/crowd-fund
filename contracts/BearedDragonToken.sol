@@ -9,7 +9,7 @@ interface IERC20 {
 // 模拟用token--鬃狮蜥币
 contract BearedDragonToken is IERC20 {
     string public constant name = "BearedDragonToken";
-    string public constant symbol = "BDToken";
+    string public constant symbol = "BDT";
     uint8 public constant demicals = 18;
 
     mapping(address => uint256) balances;
